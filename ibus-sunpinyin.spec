@@ -10,6 +10,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	ibus-devel >= 1.2.0
 BuildRequires:	sqlite3-devel
 BuildRequires:	glib2-devel
+BuildRequires:	intltool >= 0.35.0
 Requires:	ibus >= 1.2.0
 
 %description
