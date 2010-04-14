@@ -43,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %{_datadir}/%name
 %{_datadir}/sunpinyin
+%{_libdir}/sunpinyin
 %{_datadir}/ibus/component/sunpinyin.xml
 %{_libexecdir}/ibus-engine-sunpinyin
 %{_libexecdir}/ibus-setup-sunpinyin
