@@ -24,7 +24,7 @@ operating systems. The 2.0 release currently supports iBus, XIM, and
 Mac OS X.
 
 %prep
-%setup -q -n sunpinyin-%{version}
+%setup -q -n sunpinyin-2.0
 
 %build
 %configure2_5x --enable-ibus
