@@ -12,6 +12,7 @@ BuildRequires:	sqlite3-devel
 BuildRequires:	glib2-devel
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	sunpinyin-devel >= %version
+BuildRequires:	gtk+2-devel
 BuildRequires:	cmake
 Requires:	ibus >= 1.2.0
 Requires(post,preun): GConf2
