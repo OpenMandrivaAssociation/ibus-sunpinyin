@@ -35,13 +35,13 @@ Mac OS X.
 %make
 
 %install
-rm -rf %{buildroot}
+rm -rf $RPM_BUILD_ROOT
 %makeinstall_std -C build
 
 %find_lang %name
 
 %clean
-rm -rf %{buildroot}
+rm -rf $RPM_BUILD_ROOT
 
 %post
 %post_ibus_register_engine sunpinyin zh_CN
@@ -55,3 +55,35 @@ rm -rf %{buildroot}
 %{_datadir}/ibus/component/sunpinyin.xml
 %{_libexecdir}/ibus-engine-sunpinyin
 %{_libexecdir}/ibus-setup-sunpinyin
+
+
+%changelog
+* Fri May 06 2011 Funda Wang <fwang@mandriva.org> 2.0.3-2mdv2011.0
++ Revision: 669831
+- rebuild
+
+* Tue Apr 26 2011 Funda Wang <fwang@mandriva.org> 2.0.3-1
++ Revision: 659359
+- br gtk
+- new verrsion 2.0.3
+
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.1-3mdv2011.0
++ Revision: 611141
+- rebuild
+
+* Mon Apr 26 2010 Funda Wang <fwang@mandriva.org> 2.0.1-2mdv2010.1
++ Revision: 538923
+- rebuild
+
+* Wed Apr 14 2010 Funda Wang <fwang@mandriva.org> 2.0.1-1mdv2010.1
++ Revision: 534690
+- update file list
+- fix tarball dir
+- New version 2.0.1
+
+* Sun Mar 28 2010 Funda Wang <fwang@mandriva.org> 2.0-1mdv2010.1
++ Revision: 528583
+- BR intltool
+- import ibus-sunpinyin
+
+
