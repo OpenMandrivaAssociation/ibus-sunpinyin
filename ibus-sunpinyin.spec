@@ -12,6 +12,7 @@ BuildRequires:	intltool
 BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	pkgconfig(ibus-1.0)
+BuildRequires:	pkgconfig(pangoxft)
 BuildRequires:	pkgconfig(sqlite3)
 BuildRequires:	pkgconfig(sunpinyin-2.0) >= %{version}
 Requires:	ibus
