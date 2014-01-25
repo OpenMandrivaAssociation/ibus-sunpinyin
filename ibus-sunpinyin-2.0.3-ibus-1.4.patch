@@ -1,0 +1,11 @@
+--- cmake/modules/FindiBus.cmake.ibus	2011-09-24 22:52:15.986487497 +0800
++++ cmake/modules/FindiBus.cmake	2011-09-24 22:55:59.806801693 +0800
+@@ -20,7 +20,7 @@
+ 
+ # Finally the library itself
+ find_library(iBus_LIBRARY
+-  NAMES ibus
++  NAMES ibus ibus-1.0
+   PATHS ${iBus_PKGCONF_LIBRARY_DIRS}
+ )
+ 
