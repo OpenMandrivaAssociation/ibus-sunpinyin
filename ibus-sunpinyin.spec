@@ -1,7 +1,7 @@
 Summary:	A statistical language model based Chinese input method
 Name:		ibus-sunpinyin
 Version:	2.0.3
-Release:	4
+Release:	5
 License:	LGPLv2+
 Group:		System/Internationalization
 Url:		http://code.google.com/p/sunpinyin
