@@ -4,7 +4,7 @@ Version:	2.0.3
 Release:	5
 License:	LGPLv2+
 Group:		System/Internationalization
-Url:		http://code.google.com/p/sunpinyin
+Url:		https://code.google.com/p/sunpinyin
 Source0:	http://sunpinyin.googlecode.com/files/%{name}-%{version}.tar.gz
 Patch0:		ibus-sunpinyin-2.0.3-ibus-1.4.patch
 BuildRequires:	cmake
